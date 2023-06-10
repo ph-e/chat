@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+html {
+    font-family: 'Arimo', sans-serif;
+}
+body {
+    background-color: #1a1919;
+}
+
+.chat {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 30%;
+    height: 95%;
+    border-radius: 12px;
+    background: #202020;
+    overflow-wrap: break-word;
+    min-width: 400px;
+    min-height: 700px;
+    display: inline-block;
+}
+
+button {
+    position: relative;
+    border-radius: 10px;
+    left: 5%;
+    width: 10%;
+    height: 100%;
+}
+
+.input {
+    position: relative;
+    nav-down: auto;
+    border-radius: 10px;
+    left: 5%;
+    width: 78%;
+    height: 100%;
+    border: #202020c4 solid 1px;
+}
+
+.chatForm {
+    min-height: 5%;
+    max-height: 5%;
+    min-width: 100%;
+    max-height: 100%;
+}
+
+.input, button{
+    color: #C0C0C0;
+    font-size: 16px;
+    vertical-align: middle;
+    background: #1a1919;
+}
+
+.chatField{
+    position: relative;
+    width: 95%;
+    height: 95%;
+    color: #C0C0C0;
+    overflow: auto;
+}
+
+.users{
+    font-weight: bold;
+    display: inline-block;
+    color: #C0C0C0;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #202020;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #585a5a;
+}
